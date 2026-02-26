@@ -92,6 +92,7 @@ I'm a student at **<img src="https://cdn.simpleicons.org/42/white" height="20" /
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dren-bislimi-671a65266/)
+[![42 Portfolio](https://img.shields.io/badge/42%20Portfolio-000000?style=for-the-badge&logo=42&logoColor=white)](https://profile.intra.42.fr/users/dbislimi)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dbislimi@student.42nice.fr)
 
 </div>
