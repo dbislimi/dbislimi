@@ -22,7 +22,7 @@ The hardest part wasn't parsing commands. It was understanding how a real shell 
 
 A real TCP server handling concurrent clients, channels, and operator permissions. C++98 is a raw environment — no lambdas, no smart pointers, no `auto` — that forces every design decision to be explicit.
 
-**[Data science track](https://github.com/dbislimi/ft_linear_regression)** — Linear regression → logistic regression
+**[Data science track](https://github.com/dbislimi?tab=repositories&q=data-science)** — Linear regression → logistic regression
 
 `ft_linear_regression` (complete): gradient descent from scratch on a car price dataset — normalization, training loop, cost curve, model persistence. No sklearn.
 
