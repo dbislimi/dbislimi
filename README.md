@@ -1,14 +1,18 @@
 # Dren Bislimi
 
-Student at [42 Nice](https://42nice.fr), specializing in systems programming. Currently on the AI/data science branch of the cursus.
+Student at [42 Nice](https://42nice.fr), specializing in AI and data science. Background in systems programming (C, C++), now focused on machine learning.
 
-Most of my projects are in C and C++ (memory management, process control, networking). I also use Python for ML and TypeScript for web/real-time stuff.
+Most of my projects are in C and C++ (memory management, process control, networking). I also use Python for ML and TypeScript for real-time web apps.
 
-Right now I'm finishing **DSLR**: logistic regression and multi-class classification implemented from scratch in Python, no sklearn.
+Right now I'm working on **DSLR** (logistic regression + multi-class classification from scratch, no sklearn) and **neural_shifumi** (CNN for hand gesture recognition with PyTorch).
 
 ---
 
-## Projects
+## Personal projects
+
+**[neural_shifumi](https://github.com/dbislimi/neural_shifumi)** - Rock-paper-scissors with hand gesture recognition. CNN trained from scratch with PyTorch (4 conv blocks + GAP), classifies a live camera feed.
+
+## 42 projects
 
 **[ft_transcendence](https://github.com/dbislimi/ft_transcendence)** - Multiplayer Pong + Bomb Party platform with real-time WebSocket sync, server-authoritative game logic, and a Q-learning AI opponent trained from scratch.
 
