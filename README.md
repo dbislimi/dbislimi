@@ -10,7 +10,7 @@ Right now I'm working on **DSLR** (logistic regression + multi-class classificat
 
 ## Personal projects
 
-**[neural_shifumi](https://github.com/dbislimi/neural_shifumi)** - Rock-paper-scissors with hand gesture recognition. CNN trained from scratch with PyTorch (4 conv blocks + GAP), classifies a live camera feed.
+**[neural_shifumi](https://github.com/dbislimi/neural_shifumi)** (wip) - Rock-paper-scissors with hand gesture recognition. CNN trained from scratch with PyTorch (4 conv blocks + GAP), classifies a live camera feed.
 
 ## 42 projects
 
