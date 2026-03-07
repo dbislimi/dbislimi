@@ -1,49 +1,31 @@
 # Dren Bislimi
 
-**Systems programmer** in specialization at [42 Nice](https://42nice.fr), currently focused on AI & data science.
+Student at [42 Nice](https://42nice.fr), specializing in systems programming. Currently on the AI/data science branch of the cursus.
 
-I spend most of my time close to the metal — memory management, process handling, network protocols. Understanding how things work at that level changes the way you write everything else.
+Most of my projects are in C and C++ (memory management, process control, networking). I also use Python for ML and TypeScript for web/real-time stuff.
 
-Right now I'm finishing **DSLR**: implementing logistic regression and multi-class classification from scratch in Python — without sklearn — to understand what the abstractions actually hide before relying on them.
+Right now I'm finishing **DSLR**: logistic regression and multi-class classification implemented from scratch in Python, no sklearn.
 
 ---
 
 ## Projects
 
-**[ft_transcendence](https://github.com/dbislimi/ft_transcendence)** — Real-time Pong with an AI opponent
+**[ft_transcendence](https://github.com/dbislimi/ft_transcendence)** - Multiplayer Pong + Bomb Party platform with real-time WebSocket sync, server-authoritative game logic, and a Q-learning AI opponent trained from scratch.
 
-Full-stack real-time Pong: WebSocket server in TypeScript, all game logic server-side, multiplayer sessions synchronized in real time. The AI opponent uses Q-leaning built from scratch — no library, just the algorithm, the state space, and a lot of tuning to make it actually competitive.
+**[Minishell](https://github.com/dbislimi/minishell)** - Unix shell in C with a tokenizer, AST-based parser, pipes, redirections, heredoc, and signal handling.
 
-**[Minishell](https://github.com/dbislimi/minishell)** — Unix shell in C
+**[ft_irc](https://github.com/dbislimi/ft_irc)** - IRC server in C++98, single-threaded with `poll()` for I/O multiplexing. Handles channels, operator permissions, and the standard IRC commands.
 
-The hardest part wasn't parsing commands. It was understanding how a real shell manages execution contexts, pipe chains, and signal handling simultaneously. Built a tokenizer, an AST, and process group management all from scratch.
-
-**[ft_irc](https://github.com/dbislimi/ft_irc)** — IRC server in C++98
-
-A real TCP server handling concurrent clients, channels, and operator permissions. C++98 is a raw environment — no lambdas, no smart pointers, no `auto` — that forces every design decision to be explicit.
-
-**[Data science track](https://github.com/dbislimi?tab=repositories&q=data-science)** — Linear regression → logistic regression
-
-`ft_linear_regression` (complete): gradient descent from scratch on a car price dataset — normalization, training loop, cost curve, model persistence. No sklearn.
-
-`DSLR` (in progress): reimplementing `describe()`, logistic regression, and multi-class classification from first principles. Same philosophy, harder math.
+**[Data science track](https://github.com/dbislimi/ft_linear_regression)** - `ft_linear_regression` (done): gradient descent for price prediction. `DSLR` (wip): logistic regression + multi-class classification. No ML libraries.
 
 ---
 
-## How I work
+## Tech
 
-**C / C++** — anything where control matters: memory, performance, syscalls.
-
-**Python** — data pipelines, prototyping, ML experiments. Fast feedback loop.
-
-**TypeScript** — real-time, event-driven systems.
-
-**Docker** — because "works on my machine" isn't an argument.
-
-**Git** — intentional commit messages, because history is documentation.
+C, C++, Python, TypeScript, Docker, Git
 
 ---
 
-I'm looking for an internship where the engineering is the challenge — whether that's close to the metal or close to the model.
+Open to internship opportunities in software engineering or applied ML.
 
 [LinkedIn](https://www.linkedin.com/in/dren-bislimi-671a65266/) · [dbislimi@student.42nice.fr](mailto:dbislimi@student.42nice.fr)
