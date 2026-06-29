@@ -1,35 +1,41 @@
 # Dren Bislimi
 
-Student at [42 Nice](https://42nice.fr), specializing in AI and data science. Background in systems programming (C, C++), now focused on machine learning.
+Software engineering student at [42 Nice](https://42nice.fr), focused on **MLOps & cloud**.
 
-Most of my projects are in C and C++ (memory management, process control, networking). I also use Python for ML and TypeScript for real-time web apps.
+I pair hands-on ML (PyTorch, NumPy, models built from scratch) with a solid systems and infrastructure base: Docker, Linux, and low-level networking in C/C++.
 
-Right now I'm working on **DSLR** (logistic regression + multi-class classification from scratch, no sklearn) and **neural_shifumi** (CNN for hand gesture recognition with PyTorch).
+[![AWS Certified AI Practitioner](https://img.shields.io/badge/AWS-Certified%20AI%20Practitioner-FF9900?logo=amazonaws&logoColor=white)](https://www.credly.com/badges/795825ae-1a9f-43c0-89f9-93a79b5f670c/public_url)
 
 ---
 
-## Personal projects
+## Machine learning & AI
 
-**[neural_shifumi](https://github.com/dbislimi/neural_shifumi)** (wip) - Rock-paper-scissors with hand gesture recognition. CNN trained from scratch with PyTorch (4 conv blocks + GAP), classifies a live camera feed.
+**[neural_shifumi](https://github.com/dbislimi/neural_shifumi)** — Rock-paper-scissors via hand-gesture recognition: a CNN trained from scratch in PyTorch (4 conv blocks + GAP) that classifies a live camera feed.
 
-## 42 projects
+**[dslr](https://github.com/dbislimi/dslr)** — One-vs-all logistic regression classifying students into four houses from their grades. Gradient descent, feature normalization, no ML libraries.
 
-**[ft_transcendence](https://github.com/dbislimi/ft_transcendence)** - Multiplayer Pong + Bomb Party platform with real-time WebSocket sync, server-authoritative game logic, and a Q-learning AI opponent trained from scratch.
+**[ft_linear_regression](https://github.com/dbislimi/ft_linear_regression)** — Linear regression from scratch: gradient descent, MSE cost, min-max normalization, R² evaluation.
 
-**[Minishell](https://github.com/dbislimi/minishell)** - Unix shell in C with a tokenizer, AST-based parser, pipes, redirections, heredoc, and signal handling.
+**[ft_transcendence](https://github.com/dbislimi/ft_transcendence)** — Real-time multiplayer Pong with a Q-learning AI opponent trained from scratch, served over WebSocket with server-authoritative game logic.
 
-**[ft_irc](https://github.com/dbislimi/ft_irc)** - IRC server in C++98, single-threaded with `poll()` for I/O multiplexing. Handles channels, operator permissions, and the standard IRC commands.
+## Systems & infrastructure
 
-**[Data science track](https://github.com/dbislimi/ft_linear_regression)** - `ft_linear_regression` (done): gradient descent for price prediction. `DSLR` (wip): logistic regression + multi-class classification. No ML libraries.
+**[inception](https://github.com/dbislimi/inception)** — Three-container Docker Compose stack (NGINX + TLS, WordPress/php-fpm, MariaDB) built from bare Debian images, with persistent volumes and an isolated internal network.
+
+**[ft_irc](https://github.com/dbislimi/ft_irc)** — Non-blocking IRC server in C++98, single-threaded with `poll()` for I/O multiplexing. Channels, operator commands, full RFC 1459 set.
+
+**[ft_ping](https://github.com/dbislimi/ft_ping)** — Reimplementation of `ping` in C using raw sockets and ICMP: packet construction, checksums, and round-trip timing.
+
+**[minishell](https://github.com/dbislimi/minishell)** — UNIX shell in C: a lexer (linked list of tokens) and a parser that builds a pipe-separated command list, with pipes, redirections, heredoc, and signal handling.
 
 ---
 
 ## Tech
 
-C, C++, Python, TypeScript, Docker, Git
+Python · PyTorch · NumPy · Docker · AWS · Linux · C · C++ · Git
 
 ---
 
-Open to internship opportunities in software engineering or applied ML.
+Open to a software engineering **apprenticeship** or internship in **MLOps, cloud, or ML engineering**. Based in Nice / Sophia-Antipolis, open to relocating to Paris.
 
-[LinkedIn](https://www.linkedin.com/in/dren-bislimi-671a65266/) · [dbislimi@student.42nice.fr](mailto:dbislimi@student.42nice.fr)
+[LinkedIn](https://linkedin.com/in/drenbislimi) · [dren.bislimi@gmail.com](mailto:dren.bislimi@gmail.com)
